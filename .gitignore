@@ -1,0 +1,6 @@
+# Playwright MCP auto-captured snapshots and console logs
+.playwright-mcp/*.yml
+.playwright-mcp/*.log
+# Generated per-step chat scripts (made from t/tpl.js)
+.playwright-mcp/t/[a-z].js
+.playwright-mcp/t/x*.js
