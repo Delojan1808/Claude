@@ -4,3 +4,8 @@
 # Generated per-step chat scripts (made from t/tpl.js)
 .playwright-mcp/t/[a-z].js
 .playwright-mcp/t/x*.js
+# Ad-hoc helper scripts created during test runs (reports .md are still tracked)
+.playwright-mcp/t/*.js
+.playwright-mcp/t/*.sh
+!.playwright-mcp/t/tpl.js
+!.playwright-mcp/t/reset.js
